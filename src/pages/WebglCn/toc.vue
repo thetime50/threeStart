@@ -5,7 +5,7 @@
     <p><a href="http://www.hewebgl.com/article/articledir/1">link-></a></p>
     <h4>第1章 开启Threejs之旅(一)</h4>
     <p><a href="http://www.hewebgl.com/article/getarticle/27">link-></a></p>
-    <p><router-link to="/webglcn/primary/no1start1">note-></router-link></p>
+    <p><router-link to="/webglcn/primary/no1start">note-></router-link></p>
 </div>
 </template>
 

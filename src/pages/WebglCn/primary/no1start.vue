@@ -1,6 +1,6 @@
 <template>
-<div class="component-no1start1">
-    no1start1
+<div class="component-no1start">
+    no1start
 </div>
 </template>
 
@@ -8,7 +8,7 @@
 /* message */
 
 export default {
-    name: "no1start1",
+    name: "no1start",
     data () {
         return {
         };
@@ -17,7 +17,8 @@ export default {
 </script>
 
 <style rel="stylesheet/scss" lang="scss">
-.component-no1start1{
+.component-no1start{
+  height: 100%;
      
 }
 </style>

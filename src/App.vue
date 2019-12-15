@@ -52,11 +52,20 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  height: 100%;
+
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr;//.tool-bar-wrap .router-wrap
+  >*{
+      min-width: 0;
+      min-height: 0;
+  }
   .tool-bar-wrap{
+    margin-top: 60px;
     display: grid;
     grid-template-columns: 1fr auto;
-    grid-template-rows: 1fr;//.class1 .class2
+    grid-template-rows: 1fr;//.bread-wrap .option-wrap
     >*{
         min-width: 0;
         min-height: 0;

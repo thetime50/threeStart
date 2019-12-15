@@ -19,6 +19,7 @@ export default {
 
 <style rel="stylesheet/scss" lang="scss">
 .component-primary{
+  height: 100%;
      
 }
 </style>

@@ -6,7 +6,7 @@ import toc from '@/pages/toc.vue'
 import WebglCn from '@/pages/WebglCn/WebglCn.vue'
 import primary from '@/pages/WebglCn/primary/primary.vue'
 import WebglCnToc from '@/pages/WebglCn/toc.vue'
-import no1start1 from '@/pages/WebglCn/primary/no1start1.vue'
+import no1start from '@/pages/WebglCn/primary/no1start.vue'
 
 Vue.use(Router)
 
@@ -41,9 +41,9 @@ export default new Router({
           meta: { btitle: "初级教程" },
           children:[
             {
-              path: 'no1start1',
-              name: 'no1start1',
-              component:no1start1,
+              path: 'no1start',
+              name: 'no1start',
+              component:no1start,
               meta: { btitle: "第1章 开启Threejs之旅(一)" },
             },
           ]
