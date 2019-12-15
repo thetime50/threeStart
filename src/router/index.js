@@ -36,6 +36,7 @@ export default new Router({
         },
         {
           path: 'primary',
+          redirect:'/webglcn/toc',
           component:primary,
           meta: { btitle: "初级教程" },
           children:[

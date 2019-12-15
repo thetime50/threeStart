@@ -6,6 +6,11 @@
           class="breadcrumb"
           separator-class="el-icon-arrow-right">
           <el-breadcrumb-item 
+            :to="($route.path!='/toc')&&'/toc'">
+          
+            首页
+          </el-breadcrumb-item>
+          <el-breadcrumb-item 
             v-for="(bi,i) in breadcrumbs"
             :to="breadcrumbs.length-i-1 && bi.path &&{ path: bi.path }"
             :key="i">
