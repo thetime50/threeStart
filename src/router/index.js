@@ -17,6 +17,7 @@ export default new Router({
       name: 'main',
       component: main,
       redirect:'toc',
+      meta: { btitle: "首页" },
     },
     {
       path: '/toc',
@@ -27,6 +28,7 @@ export default new Router({
       path: '/webglcn',
       component:WebglCn,
       redirect:'/webglcn/toc',
+      meta: { btitle: "WebGl 中文网" },
       children:[
         {
           path: 'toc',
@@ -35,11 +37,13 @@ export default new Router({
         {
           path: 'primary',
           component:primary,
+          meta: { btitle: "初级教程" },
           children:[
             {
               path: 'no1start1',
               name: 'no1start1',
               component:no1start1,
+              meta: { btitle: "第1章 开启Threejs之旅(一)" },
             },
           ]
         },
